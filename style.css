@@ -1,0 +1,100 @@
+body{
+  text-align:center;  /* alinhar texto */
+  font-family:Open Sans, sans-serif;
+  background-color: #8a71c9;
+  color:#ffff;
+  margin: 0px;
+
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2{
+  color: #2a0074;
+  font-size: 40px;
+}
+
+h3{
+  font-size: 22px;
+  font-style: italic;
+}
+
+p{
+  font-size:20px;
+  line-height: 1.5;
+}
+
+/* a classe precede de ponto. */
+.titulo-verde{
+  color:#04ff9f;
+
+}
+
+.titulo-vermelho{
+  color:#FF9E9E;
+
+}
+
+.titulo-amarelo{
+  color:#ffe36d;
+
+}
+
+section{
+  width:60%;
+  margin: 0 auto;
+}
+
+section section{
+  width: 100%;
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+  list-style-type:none;
+
+}
+
+a{
+  color:#99ffff;
+  font-weight: 700;
+  line-height: 2
+
+}
+
+/*margin (margem) é o espaçamento para fora do elemento, enquanto que padding (preenchimento) é o espaçamento para dentro desses limites do elemento! */
+.principal{
+  background: #FF6CB5;
+  height:40px;            /*peso*/
+  max-width:60%;  /*diminuir o background */
+  margin: 0 auto;  /*centraliza o o background*/
+}
+
+.principal a{
+  color:#ffff;
+  font-weight: normal;      /*tamanho*/
+
+}
+
+.principal il{
+  display:inline-block; /*coloca os elementos da lista lado a lado, ao inves de uma abaixo do outro*/
+  line-height: 2.5;
+  margin: 0 89px;
+
+}
+
+/* seletor de classe é ponto. de id é # */
+
+button{
+  background: #41f341;
+  border: 1px transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+}
